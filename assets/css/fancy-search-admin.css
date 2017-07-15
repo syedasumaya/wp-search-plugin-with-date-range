@@ -1,0 +1,394 @@
+.fancy-search-admin {
+    font-family: 'Open Sans', sans-serif;
+    /*width: 80%;*/
+}
+.fancy-search-admin a:focus{
+    outline: none;
+    outline-offset: 0;
+}
+.fancy-search-admin #fancysearch-header-wrap{
+    position: relative;
+    background: #333 none repeat scroll 0 0;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    color: #bbb;
+    display: block;
+    margin: 11px 5px 0 2px;
+    min-width: 535px;
+    overflow: hidden;
+    min-height: 30px;
+}
+.fancysearch-sub-header{
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    box-shadow: 0 1px 0 #fff inset, 0 1px 3px rgba(0, 0, 0, 0.05);
+    display: block;
+    margin: 0 5px 0 2px;
+    min-width: 523px;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+.fancysearch-sub-header.fancysearch-button{
+    border-width: 1px;
+    border-color: #ccc;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    background: #fff;
+    border-style: none solid solid;
+}
+.fancysearch-sub-header .button-primary{
+    font-size: 12px !important;
+    height: 29px !important;
+    line-height: 27px !important;
+    margin: 5px;
+    min-width: 40px;
+    padding: 0 10px 1px !important;
+    float: right;
+}
+.fancy-search-admin .block {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #e9eef2;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    /*box-shadow: 146px 0 0 #f1f1f1 inset, 147px 0 0 #ccc inset, 0 1px 3px rgba(0, 0, 0, 0.05);*/
+    margin: 0 5px 0 2px;
+    min-width: 533px;
+    padding: 30px;
+    position: relative;
+}
+.fancy-search-admin .block:after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.fancy-search-admin .fs-admin-container{
+    border: none;
+}
+.fancy-search-admin .fs-admin-container > li > a{
+    border: none;
+    color: #677587;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.fancy-search-admin .nav > li > a:hover,
+.fancy-search-admin .nav > li > a:focus{
+    background: #0ca3d5;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.fancy-search-admin .fs-admin-container > li.active > a,
+.fancy-search-admin .fs-admin-container > li.active > a:hover,
+.fancy-search-admin .fs-admin-container > li.active > a:focus{
+    background: #0ca3d5;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+    box-shadow: 2px 0 5px rgba(102,102,102,0.3);
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: all 0.2s ease 0s;
+    -moz-transition: all 0.2s ease 0s;
+    -ms-transition: all 0.2s ease 0s;
+    -o-transition: all 0.2s ease 0s;
+    transition: all 0.2s ease 0s;
+}
+.fancy-search-admin .fs-admin-container > li.active > a:after{
+    content: "";
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    bottom: -20px;
+    margin-left: -12px;
+    border-bottom: 10px solid #fff;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+}
+.fancy-search-admin .tab-content .tab-pane{
+    background: #fff;
+    padding: 30px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.fancy-search-admin .tab-content .tab-pane:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fancy-search-admin h4 {
+    text-transform:uppercase;
+    font-size: 14px;
+    font-weight:600;
+    color:#3a3131;
+    margin: 0;
+    padding-bottom: 7px;
+}
+.fancy-search-admin .block .tr,
+.fancy-search-admin .block .tr2 {
+    background-color:#e9eef2;
+    padding:15px;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.fancy-search-admin .block .tr em,
+.fancy-search-admin .block .tr2 em {
+    font-size:.9em;
+    display:block;
+    margin:.4em 0 0 .3em;
+    color:#0ca3d5;
+    font-weight:bold;
+}
+.fancy-search-admin .block .tr input,
+.fancy-search-admin .block select {
+    color:#677587;
+    display:inline-block;
+    width:34%;
+    padding:.2em;
+    border: 1px solid #fff;
+    box-shadow: none;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+.fancy-search-admin .block strong{
+    color:#677587;
+}
+.fancy-search-admin .block input:hover,
+.fancy-search-admin .block select:hover,
+.fancy-search-admin .block input:active,
+.fancy-search-admin .block select:active,
+.fancy-search-admin .block input:focus,
+.fancy-search-admin .block select:focus{
+    border:1px solid #0ca3d5;
+}
+.fancy-search-admin .block .fs_addons_nav{
+    float: left;
+    text-align: center;
+    width: 13%;
+    margin: 0;
+    border: none;
+}
+.fancy-search-admin .block .fs_addons_nav li{
+    margin: 0;
+    float: none;
+}
+.fancy-search-admin .block .fs_addons_nav li a{
+    text-decoration: none;
+    display: block;
+    color: #677587;
+    font-weight: 600;
+    padding: 10px 15px;
+    background: #e9eef2;
+    position: relative;
+    margin: 0;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+.fancy-search-admin .block .fs_addons_nav li a:focus,
+.fancy-search-admin .block .fs_addons_nav li a:focus .media-icon img{
+    box-shadow: none;
+}
+.fancy-search-admin .block .fs_addons_nav li.active a{
+    background: #fff;
+    border-top: 1px solid #e9eef2;
+    border-bottom: 1px solid #e9eef2;
+}
+.fancy-search-admin .block .fs_addons_nav li.active a:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    background: #0ca3d5;
+}
+.fancy-search-admin .block .fs_addons_nav li.active a:before{
+    content: "";
+    position: absolute;
+    left: 100%;
+    width: 2px;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+}
+.fancy-search-admin .block .fs_addon_content{
+    display: inline-block;
+    border: 1px solid #e9eef2;
+    width: 86%;
+}
+.fancy-search-admin .fs-readme .block:first-child{
+    border-top: 1px solid #ccc;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+}
+.fancy-search-admin .fs-readme .tr{
+    background: #fff;
+    color: #677587;
+    padding: 10px 15px;
+}
+.fancy-search-admin .fs-readme .tr-info{
+    color: #677587;
+}
+.fancy-search-admin .fs-readme .block .col{
+    width: 48%;
+    margin: 0 1%;
+}
+.fancy-search-admin .block .col {
+    float:left;
+    width:40%;
+    margin-right:5%;
+}
+
+
+@media (max-width: 1400px) {
+    .fancy-search-admin .block .col{
+        width: 45%;
+    }
+    .fancy-search-admin .block .tr input, .fancy-search-admin .block select{
+        width: 45%;
+    }
+    .fancy-search-admin .block .tr label{
+        width: 50%;
+    }
+}
+@media (max-width: 1200px) {
+    .fancy-search-admin{
+        width: 99%;
+    }
+}
+@media (max-width: 767px) {
+    .fancy-search-admin .block .col{
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+.fancy-search-admin .icon {width:32px; height:32px; background:url('../img/icon.png'); background-size:100%;}
+.fancy-search-admin .fs-header-title{
+    line-height:1.7em;
+    margin-bottom:.8em;
+    color:#555;
+    background: #fff;
+    padding: 10px 20px;
+    display: block;
+    position: relative;
+}
+.fancy-search-admin .fs-header-title:before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3px;
+    bottom: 0;
+    background: #0ca3d5;
+}
+.fancy-search-admin .clear {clear:both;}
+.fancy-search-admin h3 {text-transform:uppercase; font-size:1.3em; font-weight:lighter;}
+
+.fancy-search-admin .block .tr label {
+    color:#555;
+    width:62%;
+    margin-left:2%;
+    margin-top:-2px;
+    display:inline-block;
+    cursor: auto;
+}
+.fancy-search-admin .block .tr2 label {color:#555; width:100%; margin:-2px 0 .5em; display:inline-block;}
+
+.fancy-search-admin .block textarea {color:#555; display:inline-block; width:100%; max-width:100%; min-width:50%; min-height:4em; border:1px solid #777; padding:.2em;}
+
+
+
+.fancy-search-admin .block .tr img {width:100%; border:1px solid #ddd;}
+.fancy-search-admin .block .tr p:hover {background-color:#e5e5e5; box-shadow:1px 1px 4px #777;}
+.fancy-search-admin .block .tr-info {padding:0 1em; font-size:1.1em; font-style:italic;}
+.fancy-search-admin .block .autoCompleteDelete,.fancy-search-admin .block .autoCorrectDelete {text-indent:2em; background:url(../img/warning.png) no-repeat left center; color:#ffa221;}
+.fancy-search-admin #deleteSelect {width:60%; font-size:1.1em}
+
+
+/*   Add-ons   */
+/*.fs-addons-header{*/
+    /*background: #fff;*/
+    /*padding: 10px 15px;*/
+    /*display: block;*/
+/*}*/
+/*.fs-addons-header input[type="file"]{*/
+    /*border: none !important;*/
+/*}*/
+.fs-addons{
+    border: 1px solid #ccc;
+    background: #e9eef2;
+    padding: 30px;
+    display: block;
+    position: relative;
+}
+.fs-addons:before,
+.fs-addons:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.fs-addons li{
+    float: left;
+    margin: 0 1em 1em 0 !important;
+    padding: 0;
+    vertical-align: top;
+    width: 300px;
+}
+.fs-addons a{
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    color: inherit;
+    display: block;
+    min-height: 220px;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.2s linear 0s;
+}
+.fs-addons a:hover{
+    background: #fff;
+}
+.fs-addons a:hover h3{
+    background: #0ca3d5;
+    color: #fff;
+}
+.fs-addons a h3{
+    background: #fff none repeat scroll 0 0;
+    margin: 0;
+    padding: 20px;
+    font-weight: 600;
+    transition: all 0.2s linear 0s;
+}
+.fs-addons a p{
+    border-top: 1px solid #f1f1f1;
+    margin: 0 !important;
+    padding: 20px !important;
+}
